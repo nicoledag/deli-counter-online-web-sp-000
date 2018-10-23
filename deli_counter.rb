@@ -36,6 +36,8 @@ def now_serving(katz_deli)
   else
     puts "Currently serving #{}."
     katz_deli.shift
+
+binding.pry
   end
 
 end
