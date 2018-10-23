@@ -25,10 +25,13 @@ def take_a_number(katz_deli, name)
     katz_deli.unshift(name)
 
   else
-    katz_deli.each_with_index do |name,i|
-    katz_deli << "Welcome, #{name}. You are number #{i+1} in line."
-    end
+    katz_deli << name
+
   end
+
+    katz_deli.each_with_index do |name,i|
+    puts "Welcome, #{name}. You are number #{i+1} in line."
+    end
 
 end
 
