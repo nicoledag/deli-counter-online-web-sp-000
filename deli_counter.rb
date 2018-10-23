@@ -44,7 +44,7 @@ def now_serving(katz_deli)
 
     katz_deli.each do |name|
     puts "Currently serving #{name}."
-    katz_deli.pop()
+    katz_deli.shift
     end
   end
 
