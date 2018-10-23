@@ -19,6 +19,9 @@ end
 
 
 # katz_deli[]
+# katz_deli ["Logan", "Avi", "Spencer"] 
+#katz_deli ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
+
 
 def take_a_number(katz_deli, name)
 
