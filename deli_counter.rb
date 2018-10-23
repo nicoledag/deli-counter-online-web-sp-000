@@ -41,7 +41,7 @@ def now_serving(katz_deli)
    puts "There is nobody waiting to be served!"
 
   else
-    
+
     katz_deli.each do |name|
     puts "Currently serving #{name}."
     katz_deli.pop()
