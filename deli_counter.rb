@@ -42,10 +42,9 @@ def now_serving(katz_deli)
 
   else
 
-    puts "Currently serving Logan."
-
-
+    katz_deli.each do |name|
+    puts "Currently serving #{name}."
+    end
   end
-
 
 end
