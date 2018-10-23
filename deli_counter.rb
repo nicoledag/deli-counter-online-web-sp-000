@@ -22,7 +22,6 @@ end
 
 def take_a_number(katz_deli, name)
 
-
   if katz_deli.empty?
     katz_deli.unshift(name)
   else
