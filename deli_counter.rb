@@ -25,10 +25,8 @@ def take_a_number(katz_deli, name)
 binding.pry
   if katz_deli.empty?
     katz_deli.unshift(name)
-
-
   else
-    katz_deli << name
+    katz_deli << "name"
 
   end
 
